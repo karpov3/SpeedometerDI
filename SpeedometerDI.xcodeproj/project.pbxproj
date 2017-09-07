@@ -14,6 +14,9 @@
 		71D337441F61C7D50079B7E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D337421F61C7D50079B7E1 /* LaunchScreen.storyboard */; };
 		71D3374F1F61C7D50079B7E1 /* SpeedometerDITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D3374E1F61C7D50079B7E1 /* SpeedometerDITests.swift */; };
 		71D3375A1F61C7D60079B7E1 /* SpeedometerDIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D337591F61C7D60079B7E1 /* SpeedometerDIUITests.swift */; };
+		84F384B8285B9F618A72E237 /* Pods_SpeedometerDITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FAC8CAB043A142AD984F9F /* Pods_SpeedometerDITests.framework */; };
+		89D545CA0480A31B9FBD5AEA /* Pods_SpeedometerDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945A1D7D312AEE14A3AEE5CE /* Pods_SpeedometerDI.framework */; };
+		D04E1BBDFFF06022632A647D /* Pods_SpeedometerDIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15448AED353248B1234EFBD7 /* Pods_SpeedometerDIUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15448AED353248B1234EFBD7 /* Pods_SpeedometerDIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedometerDIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35AE8C590EF3D0FD9F2E8EC8 /* Pods-SpeedometerDIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedometerDIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedometerDIUITests/Pods-SpeedometerDIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		71D337361F61C7D50079B7E1 /* SpeedometerDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedometerDI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D337391F61C7D50079B7E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71D3373B1F61C7D50079B7E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		71D337551F61C7D60079B7E1 /* SpeedometerDIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedometerDIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D337591F61C7D60079B7E1 /* SpeedometerDIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedometerDIUITests.swift; sourceTree = "<group>"; };
 		71D3375B1F61C7D60079B7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		945A1D7D312AEE14A3AEE5CE /* Pods_SpeedometerDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedometerDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FAC8CAB043A142AD984F9F /* Pods_SpeedometerDITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedometerDITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25BB1A54B32349429BFB3A4 /* Pods-SpeedometerDITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedometerDITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedometerDITests/Pods-SpeedometerDITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D68FA7584E83B43FB09F66F4 /* Pods-SpeedometerDIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedometerDIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedometerDIUITests/Pods-SpeedometerDIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E59A1C4B7E034182A2FAA6BD /* Pods-SpeedometerDI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedometerDI.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedometerDI/Pods-SpeedometerDI.release.xcconfig"; sourceTree = "<group>"; };
+		F207513C6895D7BF2AC0C86D /* Pods-SpeedometerDITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedometerDITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedometerDITests/Pods-SpeedometerDITests.release.xcconfig"; sourceTree = "<group>"; };
+		F314A66919863F86954E6B2A /* Pods-SpeedometerDI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedometerDI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpeedometerDI/Pods-SpeedometerDI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89D545CA0480A31B9FBD5AEA /* Pods_SpeedometerDI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F384B8285B9F618A72E237 /* Pods_SpeedometerDITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D04E1BBDFFF06022632A647D /* Pods_SpeedometerDIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				71D3374D1F61C7D50079B7E1 /* SpeedometerDITests */,
 				71D337581F61C7D60079B7E1 /* SpeedometerDIUITests */,
 				71D337371F61C7D50079B7E1 /* Products */,
+				8DFD92EDB780FA3835634E1A /* Pods */,
+				E67B108050B36709B0DE9DC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = SpeedometerDIUITests;
 			sourceTree = "<group>";
 		};
+		8DFD92EDB780FA3835634E1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F314A66919863F86954E6B2A /* Pods-SpeedometerDI.debug.xcconfig */,
+				E59A1C4B7E034182A2FAA6BD /* Pods-SpeedometerDI.release.xcconfig */,
+				D25BB1A54B32349429BFB3A4 /* Pods-SpeedometerDITests.debug.xcconfig */,
+				F207513C6895D7BF2AC0C86D /* Pods-SpeedometerDITests.release.xcconfig */,
+				D68FA7584E83B43FB09F66F4 /* Pods-SpeedometerDIUITests.debug.xcconfig */,
+				35AE8C590EF3D0FD9F2E8EC8 /* Pods-SpeedometerDIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E67B108050B36709B0DE9DC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				945A1D7D312AEE14A3AEE5CE /* Pods_SpeedometerDI.framework */,
+				A3FAC8CAB043A142AD984F9F /* Pods_SpeedometerDITests.framework */,
+				15448AED353248B1234EFBD7 /* Pods_SpeedometerDIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71D3375E1F61C7D60079B7E1 /* Build configuration list for PBXNativeTarget "SpeedometerDI" */;
 			buildPhases = (
+				EBC38D04DA1E49AEDD5079D5 /* [CP] Check Pods Manifest.lock */,
 				71D337321F61C7D50079B7E1 /* Sources */,
 				71D337331F61C7D50079B7E1 /* Frameworks */,
 				71D337341F61C7D50079B7E1 /* Resources */,
+				6BD4C330CF256F4AB4ACEB5F /* [CP] Embed Pods Frameworks */,
+				3C567BCB6A5996630AB53DCF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71D337611F61C7D60079B7E1 /* Build configuration list for PBXNativeTarget "SpeedometerDITests" */;
 			buildPhases = (
+				854D7B90EFE4757B79DB2AD2 /* [CP] Check Pods Manifest.lock */,
 				71D337461F61C7D50079B7E1 /* Sources */,
 				71D337471F61C7D50079B7E1 /* Frameworks */,
 				71D337481F61C7D50079B7E1 /* Resources */,
+				77007A6BD478A3BE39063938 /* [CP] Embed Pods Frameworks */,
+				C31965FFDB51DE756FE08A7A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 71D337641F61C7D60079B7E1 /* Build configuration list for PBXNativeTarget "SpeedometerDIUITests" */;
 			buildPhases = (
+				49D964940290674154928AAF /* [CP] Check Pods Manifest.lock */,
 				71D337511F61C7D60079B7E1 /* Sources */,
 				71D337521F61C7D60079B7E1 /* Frameworks */,
 				71D337531F61C7D60079B7E1 /* Resources */,
+				FF07AE3371EACDC127FE40C9 /* [CP] Embed Pods Frameworks */,
+				CBA51797005FCBBC02A199FA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C567BCB6A5996630AB53DCF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedometerDI/Pods-SpeedometerDI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49D964940290674154928AAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6BD4C330CF256F4AB4ACEB5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedometerDI/Pods-SpeedometerDI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77007A6BD478A3BE39063938 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedometerDITests/Pods-SpeedometerDITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		854D7B90EFE4757B79DB2AD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C31965FFDB51DE756FE08A7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedometerDITests/Pods-SpeedometerDITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA51797005FCBBC02A199FA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedometerDIUITests/Pods-SpeedometerDIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBC38D04DA1E49AEDD5079D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF07AE3371EACDC127FE40C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpeedometerDIUITests/Pods-SpeedometerDIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		71D337321F61C7D50079B7E1 /* Sources */ = {
@@ -415,10 +602,12 @@
 		};
 		71D3375F1F61C7D60079B7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F314A66919863F86954E6B2A /* Pods-SpeedometerDI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6HSA2TNQS2;
 				INFOPLIST_FILE = SpeedometerDI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderkarpov.SpeedometerDI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,10 +617,12 @@
 		};
 		71D337601F61C7D60079B7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59A1C4B7E034182A2FAA6BD /* Pods-SpeedometerDI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6HSA2TNQS2;
 				INFOPLIST_FILE = SpeedometerDI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexanderkarpov.SpeedometerDI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +632,7 @@
 		};
 		71D337621F61C7D60079B7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D25BB1A54B32349429BFB3A4 /* Pods-SpeedometerDITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +648,7 @@
 		};
 		71D337631F61C7D60079B7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F207513C6895D7BF2AC0C86D /* Pods-SpeedometerDITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +664,7 @@
 		};
 		71D337651F61C7D60079B7E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D68FA7584E83B43FB09F66F4 /* Pods-SpeedometerDIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6HSA2TNQS2;
@@ -485,6 +679,7 @@
 		};
 		71D337661F61C7D60079B7E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35AE8C590EF3D0FD9F2E8EC8 /* Pods-SpeedometerDIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 6HSA2TNQS2;
